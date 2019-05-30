@@ -64,3 +64,189 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+.wrapper {
+	margin: auto;
+	max-width: 880px;
+	line-height: 1.2;
+
+}
+
+h1 {
+	font-size: 25px;
+}
+
+nav {
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+	max-width: 880px;
+	padding: 2% 0;
+}
+
+nav a {
+	margin: auto;
+	padding-right: 5%;
+	text-decoration: none;
+	color: #A7A7AA;
+}
+
+img {
+	display: flex;
+	margin: auto;
+}
+
+.header-left h1 {
+	font-size: 80px;
+	text-align: center;
+}
+
+header {
+	margin:auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 5%;
+}
+
+.header-right {
+	padding-left: 5%;
+}
+
+button {
+	display: flex;
+	margin: auto;
+	align-content: center;
+}
+
+.top-content  {
+	margin: auto;
+	display: flex;
+	max-width: 880px;
+	padding-top: 1%;
+	border-top: 1px solid black;
+}
+.top-content-left .top-content-right {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.bottom-content {
+	margin: auto;
+	display: flex;
+	max-width: 880px;
+	border-bottom: 1px solid black;
+	padding-bottom: 1%;
+}
+
+.middle-img {
+	display: flex;
+	margin: auto;
+	padding: 2% 0;
+	justify-content: center;
+}
+
+.contact {
+	display: flex;
+	flex-flow: column;
+	margin: auto;
+	max-width: 880px;
+	padding: 3% 0;
+}
+address {
+	padding: 2% 0;
+}
+.contact a {
+	text-decoration: none;
+	color: black;
+	line-height: 2;
+}
+
+.main-image {
+	margin: auto;
+	padding-top: 10px;
+	height: 200px;
+}
+
+.services {
+	margin: 25px 0;
+	display: block;
+	padding: 5px 0px 30px 0;
+	border-bottom: 1px solid black;
+}
+
+.central {
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	margin-outside: 10px;
+	padding-bottom: 20px;
+	align-items: center;
+}
+
+.card {
+	padding: 20px 20px 10px 20px;
+	width: 45%;
+	background-color: #F4F3F4;
+	border: 1px solid black;
+	margin: 20px;
+	text-align: left;
+}
+
+.card button {
+	margin: 20px 0 10px 0;
+	padding: 10px 20px;
+	border: 1px solid black;
+	border-radius: 5px;
+	font-size: x-small;
+	width:28%;
+	background-color: white;
+}
+
+.facts {
+	margin: auto;
+	display: flex;
+	flex-direction: row;
+	padding: 25px 0;
+	border-top: 2px solid black;
+	justify-content: space-between;
+	align-self: flex-start;
+}
+
+.facts .card {
+	background-color: white;
+	border: none;
+	margin-left: 0;
+	padding-left: 0;
+	padding-top: 0;
+	alignment: left;
+	justify-content: space-between;
+
+}
+.facts img {
+	width: fit-content;
+}
+
+ul {
+	display: block;
+	margin: 0;
+}
+
+li {
+	margin-top: 10px;
+	padding-left: 0;
+	list-style-type: square;
+	list-style-position: inside;
+}
+
+
+
+
+
+footer {
+	text-align: center;
+}
+
+
+
+
+
