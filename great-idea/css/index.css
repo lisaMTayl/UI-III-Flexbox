@@ -12,8 +12,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -24,7 +24,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -49,18 +49,18 @@ table {
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 html, body {
-    height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+	height: 100%;
+	font-family: 'Titillium Web', sans-serif;
 }
 
 h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
-    letter-spacing: 1px;
-    margin-bottom: 15px;
+	font-family: 'Bangers', cursive;
+	letter-spacing: 1px;
+	margin-bottom: 15px;
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
@@ -77,22 +77,35 @@ h1 {
 
 nav {
 	margin: auto;
-	display: flex;
-	justify-content: space-between;
-	max-width: 880px;
+	display: inline-flex;
 	padding: 2% 0;
+	flex-grow: 2;
+}
+
+.navbar {
+	display: inline-flex;
+	margin: 0;
+	flex-direction: row;
+	width:98%;
 }
 
 nav a {
-	margin: auto;
-	padding-right: 5%;
+	margin: 0;
+	padding-right: 2rem;
 	text-decoration: none;
 	color: #A7A7AA;
+	text-align: center;
+}
+.navbar img {
+	display: flex;
+	justify-content: flex-end;
+
 }
 
 img {
 	display: flex;
 	margin: auto;
+
 }
 
 .header-left h1 {
@@ -178,9 +191,7 @@ address {
 	display: flex;
 	flex-wrap: wrap;
 	width: 100%;
-	margin-outside: 10px;
 	padding-bottom: 20px;
-	align-items: center;
 }
 
 .card {
@@ -198,7 +209,6 @@ address {
 	border: 1px solid black;
 	border-radius: 5px;
 	font-size: x-small;
-	width:28%;
 	background-color: white;
 }
 
@@ -209,43 +219,26 @@ address {
 	padding: 25px 0;
 	border-top: 2px solid black;
 	justify-content: space-between;
-	align-self: flex-start;
 }
 
 .facts .card {
 	background-color: white;
 	border: none;
-	margin-left: 0;
-	padding-left: 0;
-	padding-top: 0;
-	alignment: left;
-	justify-content: space-between;
-
-}
-.facts img {
-	width: fit-content;
 }
 
 ul {
 	display: block;
-	margin: 0;
 }
 
 li {
 	margin-top: 10px;
-	padding-left: 0;
 	list-style-type: square;
 	list-style-position: inside;
 }
 
-
-
-
-
 footer {
 	text-align: center;
 }
-
 
 
 
